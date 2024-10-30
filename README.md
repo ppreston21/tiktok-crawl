@@ -1,10 +1,40 @@
+```markdown
+# TikTok User Profile Scraper
+
+This Python script uses Selenium to scrape user profile data from TikTok based on search terms provided by the user. The data includes usernames, followers count, likes count, bio text, and bio links. The scraped data is saved to a CSV file named `tiktok_profiles.csv`.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Prerequisites
+
+Before running this script, ensure you have the following installed:
+
+- Python 3.x
+- Chrome WebDriver (compatible with your version of Chrome)
+- Required Python packages:
+  - Selenium
+  - pandas
+
+You can install the necessary Python packages using pip:
+
+```bash
+pip install selenium pandas
+```
+
 ## Installation
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/tiktok-profile-scraper.git
-   cd tiktok-profile-scraper
+   git clone https://github.com/ppreston21/tiktok-crawl.git
+   cd tiktok-crawl
    ```
 
 2. Download and place the Chrome WebDriver in a location accessible by your PATH or specify its location in the script.
@@ -16,7 +46,7 @@
 3. Run the script using Python:
 
    ```bash
-   python start_4.py
+   python start_3.py
    ```
 
 4. When prompted, enter search terms separated by commas. For example:
@@ -51,7 +81,8 @@ If you would like to contribute to this project, please fork the repository and 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-### Notes:
-- Replace `https://github.com/yourusername/tiktok-profile-scraper.git` with the actual URL of your repository.
-- Make sure to include any additional instructions or information relevant to your project.
-- If you have a `LICENSE` file, ensure it corresponds with the license mentioned in the README.
+### Adjustments Made:
+- Updated the repository link to point to your GitHub repository: `https://github.com/ppreston21/tiktok-crawl.git`.
+- The content is structured to provide a clear overview and guide for users. 
+
+Feel free to customize any part further as needed!
