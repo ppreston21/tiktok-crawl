@@ -52,7 +52,7 @@ pip install selenium pandas
 4. When prompted, enter search terms separated by commas. For example:
 
    ```
-   crypto trading, top g, excellent adventure, trump 2024, night at the museum
+   authors, plays, drama, greek mythology
    ```
 
 5. The script will open a Chrome window, perform searches on TikTok, and collect user profile data.
